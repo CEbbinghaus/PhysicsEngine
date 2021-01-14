@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="Source Files">
+			<UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+			<Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+		</Filter>
+		<Filter Include="Header Files">
+			<UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+			<Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+		</Filter>
+		<Filter Include="Resource Files">
+			<UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+			<Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+		</Filter>
+		<Filter Include="Libary">
+			<UniqueIdentifier>{96d00f15-37a8-498f-8e4b-2bfd870ae9fe}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Engine">
+			<UniqueIdentifier>{afc86e26-fe0a-4737-a0f7-91bdd76c20b7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Engine\Headers">
+			<UniqueIdentifier>{d97252c2-857c-4f20-bc21-bcf8eec8c622}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="main.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Player.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Game.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Asteroid.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="ColliderManager.cpp">
+			<Filter>Engine</Filter>
+		</ClCompile>
+		<ClCompile Include="Collider.cpp">
+			<Filter>Engine</Filter>
+		</ClCompile>
+		<ClCompile Include="Component.cpp">
+			<Filter>Engine</Filter>
+		</ClCompile>
+		<ClCompile Include="GameObject.cpp">
+			<Filter>Engine</Filter>
+		</ClCompile>
+		<ClCompile Include="Transform.cpp">
+			<Filter>Engine</Filter>
+		</ClCompile>
+		<ClCompile Include="Master.cpp">
+			<Filter>Engine</Filter>
+		</ClCompile>
+		<ClCompile Include="Level.cpp">
+			<Filter>Engine</Filter>
+		</ClCompile>
+		<ClCompile Include="Turret.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Bullet.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+		<ClCompile Include="Timer.cpp">
+			<Filter>Source Files</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="Player.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Array.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Assert.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_BinaryTree.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Graph.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Hash.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_List.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Matrix.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Queue.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Stack.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_String.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Tree.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Vector.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Game.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Asteroid.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="ColliderManager.h">
+			<Filter>Engine\Headers</Filter>
+		</ClInclude>
+		<ClInclude Include="Collider.h">
+			<Filter>Engine\Headers</Filter>
+		</ClInclude>
+		<ClInclude Include="Component.h">
+			<Filter>Engine\Headers</Filter>
+		</ClInclude>
+		<ClInclude Include="GameObject.h">
+			<Filter>Engine\Headers</Filter>
+		</ClInclude>
+		<ClInclude Include="Level.h">
+			<Filter>Engine\Headers</Filter>
+		</ClInclude>
+		<ClInclude Include="Master.h">
+			<Filter>Engine\Headers</Filter>
+		</ClInclude>
+		<ClInclude Include="Transform.h">
+			<Filter>Engine\Headers</Filter>
+		</ClInclude>
+		<ClInclude Include="Includes.h">
+			<Filter>Engine</Filter>
+		</ClInclude>
+		<ClInclude Include="External\mlkrng.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Heap.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Turret.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Bullet.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Timer.h">
+			<Filter>Header Files</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_All.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Matrix3.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Matrix4.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Matrixs.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Vector2.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Vector3.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Vector4.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+		<ClInclude Include="Libary\atyp_Vectors.h">
+			<Filter>Libary</Filter>
+		</ClInclude>
+	</ItemGroup>
+</Project>

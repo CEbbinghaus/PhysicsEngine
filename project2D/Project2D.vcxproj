@@ -70,8 +70,8 @@
 	<PropertyGroup Label="UserMacros"/>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
 		<LinkIncremental>true</LinkIncremental>
-		<OutDir>$(SolutionDir)build\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
-		<IntDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+		<OutDir>$(ProjectDir)build\$(Configuration) $(Platform)\</OutDir>
+		<IntDir>$(ProjectDir)temp\$(Configuration) $(Platform)\</IntDir>
 		<IncludePath>$(ProjectDir)\Libary;$(ProjectDir)\External;$(IncludePath)</IncludePath>
 		<LibraryPath>$(LibraryPath)</LibraryPath>
 	</PropertyGroup>
@@ -79,13 +79,13 @@
 		<IncludePath>$(ProjectDir)\Libary;$(ProjectDir)\External;$(IncludePath)</IncludePath>
 		<LibraryPath>$(LibraryPath)</LibraryPath>
 		<LinkIncremental>true</LinkIncremental>
-		<OutDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
-		<IntDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+		<OutDir>$(ProjectDir)build\$(Configuration) $(Platform)\</OutDir>
+		<IntDir>$(ProjectDir)temp\$(Configuration) $(Platform)\</IntDir>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
 		<LinkIncremental>false</LinkIncremental>
-		<OutDir>$(SolutionDir)build\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
-		<IntDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+		<OutDir>$(ProjectDir)build\$(Configuration) $(Platform)\</OutDir>
+		<IntDir>$(ProjectDir)temp\$(Configuration) $(Platform)\</IntDir>
 		<IncludePath>$(ProjectDir)\Libary;$(ProjectDir)\External;$(IncludePath)</IncludePath>
 		<LibraryPath>$(LibraryPath)</LibraryPath>
 	</PropertyGroup>
@@ -93,8 +93,8 @@
 		<IncludePath>$(ProjectDir)\Libary;$(ProjectDir)\External;$(IncludePath)</IncludePath>
 		<LibraryPath>$(LibraryPath)</LibraryPath>
 		<LinkIncremental>false</LinkIncremental>
-		<OutDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</OutDir>
-		<IntDir>$(SolutionDir)temp\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+		<OutDir>$(ProjectDir)build\$(Configuration) $(Platform)\</OutDir>
+		<IntDir>$(ProjectDir)temp\$(Configuration) $(Platform)\</IntDir>
 	</PropertyGroup>
 	<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
 		<ClCompile>
